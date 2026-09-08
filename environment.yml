@@ -1,0 +1,25 @@
+name: sparkit
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+
+  # Python
+  - python=3.11
+
+  # Scientific computing
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+
+  # Bioinformatics tools
+  - samtools
+  - bedtools
+
+  # Utilities
+  - pip
+  - pip:
+      - tqdm
